@@ -39,6 +39,7 @@ class _LayoutState extends State<Layout> {
       setState(() {
         activeScreen = ResultsScreen(
           chosenAnswers: selectedAnswers,
+          restart: restart,
         );
       });
     }
